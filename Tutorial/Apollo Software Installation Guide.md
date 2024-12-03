@@ -4,5 +4,5 @@
   `#Using HTTPS  
   git clone https://github.com/ApolloAuto/apollo.git`
 # 2.And checkout the latest branch:
-`cd apollo  
-git checkout master`
+`cd apollo`    
+`git checkout master`  
