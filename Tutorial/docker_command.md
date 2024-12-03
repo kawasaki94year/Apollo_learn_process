@@ -28,3 +28,11 @@ sudo groupadd docker
 ```
 sudo usermod -aG docker $USER
 ```
+## 3.Re-login or reload user groups
+```
+newgrp docker
+```
+## 4.Verify the settings
+```
+groups XuWanLun
+```
