@@ -47,3 +47,4 @@ chown root:root /etc/sudoers.d/
 chown root:root /var/lib/sudo/
 chown root:root /etc/sudoers.d/README
 ```
+## 3.Server terminated abruptly (error code: 14, error message: 'Socket closed', log file: '/apollo/.cache/bazel/540135163923dd7d5820f3ee4b306b32/server/jvm.out')
