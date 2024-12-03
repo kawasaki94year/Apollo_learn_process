@@ -14,6 +14,31 @@ git clone https://github.com/ApolloAuto/apollo.git
 cd apollo    
 git checkout master
 ```
+## 3.Start Apollo Development Docker Container
+```
+cd ${APOLLO_ROOT_DIR}
+bash docker/scripts/dev_start.sh
+```
+If successful, you will see the following messages at the bottom of your screen:
+```
+[ OK ] Congratulations! You have successfully finished setting up Apollo Dev Environment.
+[ OK ] To login into the newly created apollo_dev_michael container, please run the following command:
+[ OK ]   bash docker/scripts/dev_into.sh
+[ OK ] Enjoy!
+```
+## 4.Enter Apollo Development Docker Container
+```
+bash docker/scripts/dev_into.sh
+```
+## 5.Build Apollo inside Container
+```
+./apollo.sh build
+```
+or
+```
+./apollo.sh build_opt
+```
+
 # Installation Problem
 ## 1.`To run a command as administrator (user "root"), use "sudo <command>".See "man sudo_root" for details.` 
 when you occupied the warning that use this command `bash docker/scripts/dev_into.sh`,you need input the follow command on container terminal
