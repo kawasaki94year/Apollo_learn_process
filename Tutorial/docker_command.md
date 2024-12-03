@@ -19,3 +19,12 @@ sudo systemctl start docker
 ```
 grep docker /etc/group
 ```
+# 二、Docker group
+## 1. Creat Docker group
+```
+sudo groupadd docker
+```
+## 2.Add the user to the Docker group
+```
+sudo usermod -aG docker $USER
+```
