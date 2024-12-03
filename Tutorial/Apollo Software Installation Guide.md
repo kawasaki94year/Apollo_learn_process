@@ -48,3 +48,12 @@ chown root:root /var/lib/sudo/
 chown root:root /etc/sudoers.d/README
 ```
 ## 3.Server terminated abruptly (error code: 14, error message: 'Socket closed', log file: '/apollo/.cache/bazel/540135163923dd7d5820f3ee4b306b32/server/jvm.out')
+modify apollo/scripts/apollo_base.sh Line 755 and 758:
+```
+Line 755:#job_args="--copt=-mavx2 --host_copt=-mavx2 --jobs=${count} --local_ram_resources=HOST_RAM*0.7"
+Line 756:job_args="--copt=-mavx2 --host_copt=-mavx2 --jobs=2 --local_ram_resources=HOST_RAM*0.5"
+```
+```
+Line 758:#job_args="--copt=-march=native --host_copt=-march=native --jobs=${count} --local_ram_resources=HOST_RAM*0.7  --copt=-fPIC --host_copt=-fPIC"
+Line 759:job_args="--copt=-march=native --host_copt=-march=native --jobs=2 --local_ram_resources=HOST_RAM*0.5  --copt=-fPIC --host_copt=-fPIC"
+```
