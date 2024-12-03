@@ -16,7 +16,7 @@ git checkout master
 ```
 # Installation Problem
 ## 1.`To run a command as administrator (user "root"), use "sudo <command>".See "man sudo_root" for details.` 
-when you occupied the warning that use this command `bash docker/scripts/dev_into.sh`,you need 
+when you occupied the warning that use this command `bash docker/scripts/dev_into.sh`,you need input the follow command on container terminal
 ```
 touch ~/.sudo_as_admin_successful
 ```
