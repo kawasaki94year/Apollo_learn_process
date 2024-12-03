@@ -32,7 +32,7 @@ ls -l  /usr/bin/sudo
 chown root:root /usr/bin/sudo
 chmod 4755 /usr/bin/sudo
 ```
-3) run ./apollo.sh build again it shows
+3) run `./apollo.sh build` again it shows
 ```
 sudo: error in /etc/sudo.conf, line 0 while loading plugin "sudoers_policy"
 sudo: /usr/lib/sudo/sudoers.so must be owned by uid 0
