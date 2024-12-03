@@ -20,3 +20,4 @@ when you occupied the warning that use this command `bash docker/scripts/dev_int
 ```
 touch ~/.sudo_as_admin_successful
 ```
+## 2.`sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set`
