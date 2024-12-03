@@ -8,7 +8,7 @@ git clone git@github.com:ApolloAuto/apollo.git
 using HTTPS     
 git clone https://github.com/ApolloAuto/apollo.git 
 ```
-2) And checkout the latest branch:  
+2) checkout the latest branch:  
 ```
 cd apollo    
 git checkout master
