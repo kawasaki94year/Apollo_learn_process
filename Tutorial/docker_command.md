@@ -1,4 +1,4 @@
-# Delet docker group
+# 一、Delet docker group
 ## 1.Stop Docker server
 ```
 sudo systemctl stop docker
