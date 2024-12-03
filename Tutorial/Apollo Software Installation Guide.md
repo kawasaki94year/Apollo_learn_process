@@ -15,11 +15,8 @@ cd apollo
 git checkout master
 ```
 # Installation Problem
-## 1.If you run the command `bash docker/scripts/dev_into.sh` and it shows 
-```
-To run a command as administrator (user "root"), use "sudo <command>".See "man sudo_root" for details.
-```
-you need 
+## 1.`To run a command as administrator (user "root"), use "sudo <command>".See "man sudo_root" for details.` 
+when you occupied the warning,you need 
 ```
 touch ~/.sudo_as_admin_successful
 ```
