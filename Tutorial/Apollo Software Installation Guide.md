@@ -1,4 +1,4 @@
-# Apollo Software Installation Guide
+# 一、Apollo Software Installation Guide
 ## 1.Run the following commands to clone Apollo's GitHub Repo(there are two ways):  
 
 (1) using SSH        
@@ -39,7 +39,7 @@ or
 ./apollo.sh build_opt
 ```
 
-# Installation Problem
+# 二、Installation Problem
 ## 1.`To run a command as administrator (user "root"), use "sudo <command>".See "man sudo_root" for details.` 
 when you occupied the warning that use this command `bash docker/scripts/dev_into.sh`,you need input the follow command on container terminal
 ```
