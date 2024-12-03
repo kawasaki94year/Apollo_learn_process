@@ -24,7 +24,7 @@ touch ~/.sudo_as_admin_successful
 If you use the command `./apollo build` had the error,you should   
 1）Enter the docker container as root:
 ```
-docker exec -u root -it <container_name> bash
+docker exec -u root -it <container_name> bash  
 ```
 2) then run the follow commands:
 ```
