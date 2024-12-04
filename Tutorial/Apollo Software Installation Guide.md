@@ -82,3 +82,8 @@ Line 756:job_args="--copt=-mavx2 --host_copt=-mavx2 --jobs=2 --local_ram_resourc
 Line 758:#job_args="--copt=-march=native --host_copt=-march=native --jobs=${count} --local_ram_resources=HOST_RAM*0.7  --copt=-fPIC --host_copt=-fPIC"
 Line 759:job_args="--copt=-march=native --host_copt=-march=native --jobs=2 --local_ram_resources=HOST_RAM*0.5  --copt=-fPIC --host_copt=-fPIC"
 ```
+## 4.[buildtool] WARNING Package in /apollo_workspace/example_components is invalid: cyberfile not found!  [buildtool] ERROR Encounter ErrCode.ParamErr  [buildtool] ERROR hint: Can't find any package in workspace /apollo_workspace
+```
+sudo apt update && sudo apt install --only-upgrade apollo-neo-env-manager-dev
+aem create
+```
